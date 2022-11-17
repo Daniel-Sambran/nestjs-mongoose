@@ -13,6 +13,9 @@ export class Product {
   @Prop()
   description: string
 
+  @Prop()
+  image: string
+
   @Prop({ type: Number, index: true })
   price: number
 
