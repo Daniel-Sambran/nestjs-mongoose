@@ -4,10 +4,11 @@ import {
   Delete,
   Get,
   Param,
+  ParseIntPipe,
   Patch,
   Post,
 } from '@nestjs/common'
-import { CreateBrandDto, UpdateBrandDto } from '../dto/brands.dto'
+import { CreateBrandDto, UpdateBrandDto } from '../dto/brand.dto'
 import { BrandsService } from '../services/brands.service'
 
 @Controller('brands')
